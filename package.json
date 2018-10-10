@@ -25,5 +25,8 @@
     "not op_mini all"
   ],
   "author": "Brian Budge",
-  "contributors": ["Brian Budge", "Austin Malpede"]
+  "contributors": [
+    "Brian Budge",
+    "Austin Malpede"
+  ]
 }
