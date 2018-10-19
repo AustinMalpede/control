@@ -8,7 +8,7 @@ import {
   NavbarDivider,
   NavbarGroup,
   NavbarHeading,
-  Switch
+  Switch,
 } from "@blueprintjs/core";
 
 class Header extends Component {
@@ -18,6 +18,7 @@ class Header extends Component {
         <Navbar>
           <NavbarGroup>
             <NavbarHeading>Control</NavbarHeading>
+            <Button className={Classes.MINIMAL} icon="play" />
             <Button className={Classes.MINIMAL} icon="download" />
             <Button className={Classes.MINIMAL} icon="upload" />
           </NavbarGroup>
