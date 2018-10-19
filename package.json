@@ -9,11 +9,13 @@
     "react-dom": "^16.5.2",
     "react-scripts": "2.0.4"
   },
+  "main": "main.js",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "electron": "electron ."
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -28,5 +30,8 @@
   "contributors": [
     "Brian Budge",
     "Austin Malpede"
-  ]
+  ],
+  "devDependencies": {
+    "electron": "^3.0.3"
+  }
 }

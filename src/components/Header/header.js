@@ -18,8 +18,8 @@ class Header extends Component {
         <Navbar>
           <NavbarGroup>
             <NavbarHeading>Control</NavbarHeading>
-            <Button className={Classes.MINIMAL} icon="home" text="Home" />
-            <Button className={Classes.MINIMAL} icon="document" text="Files" />
+            <Button className={Classes.MINIMAL} icon="download" />
+            <Button className={Classes.MINIMAL} icon="upload" />
           </NavbarGroup>
         </Navbar>
       </div>
